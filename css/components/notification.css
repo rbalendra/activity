@@ -1,0 +1,52 @@
+.notification {
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  border-bottom: solid 3px #F7F7F7;
+}
+
+.notification * {
+  margin : 0;
+}
+
+.notification h2 {
+  font-size: 14px;
+  color: grey;
+}
+
+.notif-actions :hover {
+  color: #555555 !important;
+}
+
+.notif-actions a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.notification:hover .notif-actions a {
+  color: #999999;
+}
+
+/*------------------------------------------*/
+
+.notif-right a {
+  color: #268BD2;
+  text-decoration: none;
+}
+
+.notif-right {
+  display: flex;
+  align-items: center;
+}
+
+.notif-info {
+  padding-left: 10px;
+}
+
+.avatar {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%
+}
